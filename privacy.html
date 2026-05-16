@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Hermes AI Agent</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --heading: #f0f6fc;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    header a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+    header span { color: var(--muted); }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--heading);
+      margin-bottom: 0.4rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--heading);
+      margin: 2rem 0 0.75rem;
+    }
+    p { color: var(--muted); margin-bottom: 0.75rem; }
+    ul {
+      color: var(--muted);
+      padding-left: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+    ul li { margin-bottom: 0.35rem; }
+    .highlight {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 4px;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">Hermes AI Agent</a>
+    <span>/</span>
+    <span>Privacy Policy</span>
+  </header>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: May 16, 2026 &nbsp;·&nbsp; Hermes AI Agent (Discord Bot)</p>
+
+    <div class="highlight">
+      Hermes is a personal AI assistant bot. It is not a commercial product and does not sell, share, or monetize user data in any form.
+    </div>
+
+    <h2>1. Information We Process</h2>
+    <p>When you interact with the Hermes bot in Discord, the following information may be temporarily processed:</p>
+    <ul>
+      <li>Your Discord user ID and username (to identify who sent a message)</li>
+      <li>Message content you send to the bot (to generate a response)</li>
+      <li>Server/channel identifiers (to route responses correctly)</li>
+      <li>Attached media files (images, audio) when explicitly shared</li>
+    </ul>
+
+    <h2>2. Data Storage</h2>
+    <p>Hermes does not maintain a persistent database of user messages. Conversation context is held in memory for the duration of an active session and is not written to permanent storage unless you explicitly use session-save features.</p>
+    <p>Operational logs (errors, latency metrics) may be stored on the Oracle Cloud server for debugging. These logs do not contain full message content.</p>
+
+    <h2>3. Third-Party AI Providers</h2>
+    <p>Hermes routes your messages to AI inference providers (such as MiniMax, Anthropic Claude, or OpenAI) to generate responses. Your input is subject to those providers' own privacy policies. No personally identifiable information is attached to these requests beyond the message text.</p>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell, rent, or share your information with any third parties for marketing or commercial purposes. Data is shared only with AI inference providers strictly to process your requests.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>In-memory conversation context is cleared when the agent session ends or restarts. Operational logs are retained for up to 30 days and then deleted automatically.</p>
+
+    <h2>6. Your Rights</h2>
+    <p>You may request deletion of any data associated with your Discord user ID by contacting the bot administrator. As this is a personal project, responses are handled on a best-effort basis.</p>
+
+    <h2>7. Security</h2>
+    <p>Hermes runs on Oracle Cloud with network-level access controls. API keys and credentials are stored as environment variables and are never logged or transmitted.</p>
+
+    <h2>8. Children's Privacy</h2>
+    <p>This bot is not directed at children under 13. If you believe a minor has interacted with the bot, please contact the administrator.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>This policy may be updated periodically. The "last updated" date at the top of this page reflects the most recent revision.</p>
+
+    <h2>10. Contact</h2>
+    <p>For privacy inquiries, contact: <strong>zekiouuz@gmail.com</strong></p>
+  </main>
+</body>
+</html>
