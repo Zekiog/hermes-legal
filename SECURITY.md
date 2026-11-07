@@ -1,61 +1,25 @@
 # Security Policy
 
-## Supported versions
+## Supported branch
 
-The following versions of this project receive security updates:
-
-| Version | Supported          |
-|---------|--------------------|
-| `main`  | ✅ Active          |
-| latest tagged release | ✅ Active |
-| older releases | ❌ Best-effort only |
+GitHub Pages publishes `gh-pages` from the repository root. Fixes for the published pages go on that branch. It is also the default branch.
 
 ## Reporting a vulnerability
 
-**Please do not open a public GitHub issue for security vulnerabilities.**
+Do not open a public GitHub issue for a security vulnerability.
 
-Instead, report privately via one of the channels below. Include enough
-information to reproduce and assess impact:
+Use the “Report a vulnerability” button on the repository Security tab. That opens a private advisory visible only to maintainers.
 
-- A clear description of the issue and the affected component / file
-- Reproduction steps or a minimal proof-of-concept
-- Impact assessment (what an attacker could achieve)
-- Environment details if relevant (OS, runtime version)
+You can also write to the security contact listed on the maintainer profile.
 
-### Private reporting channels
-
-- **GitHub private vulnerability report:** use the
-  *“Report a vulnerability”* button on the repository *Security* tab.
-  This creates a private advisory visible only to maintainers.
-- **Email:** security contact listed on the maintainer profile (no
-  PGP requirement, but PGP-encrypted email is supported if offered).
-
-You should receive an acknowledgement within **5 business days**.
-
-## What to expect after reporting
-
-1. Triage within 5 business days — we confirm receipt and assign a
-   severity (Critical / High / Medium / Low).
-2. A patch or workaround timeline is communicated within 10 business
-   days for High / Critical issues.
-3. Once a fix is shipped we publish a coordinated advisory on GitHub
-   and credit the reporter (unless you ask to remain anonymous).
-4. If we cannot reproduce or do not consider the report a security
-   issue, we will explain why in a follow-up.
+Include the affected file, how to reproduce the issue, and what an attacker could do.
 
 ## Scope
 
-In scope: vulnerabilities in this repository’s source code, default
-configuration, CI workflows, and any documented deployment paths.
+In scope: the HTML pages in this repository, the workflows under `.github/workflows/`, and the GitHub Pages setup described in the README.
 
 Out of scope:
 
-- Vulnerabilities in upstream dependencies (please report upstream)
-- Issues requiring physical / local-machine access only
-- Social engineering or denial-of-service against the maintainer
-- “Theoretical” findings without a concrete attack path
-
-## Hardening references
-
-See `HARDENING_NOTES.md` (if present) for design decisions relevant
-to the security posture of this project.
+- Vulnerabilities in upstream dependencies
+- Issues that need physical access to a machine
+- Social engineering, or denial of service against the maintainer
