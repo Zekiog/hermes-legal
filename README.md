@@ -1,23 +1,17 @@
 # hermes-legal
 
-Static HTML legal pages for **Hermes AI Agent**:
+Static terms and privacy pages. The HTML is served as-is. There is no build step.
 
-- `index.html` — landing / cover
+Pages in this repository:
+
+- `index.html` — short index with links to the two documents
 - `privacy.html` — privacy policy
 - `terms.html` — terms of service
 
-> **Status:** ✅ Published — pure static HTML, hosted via GitHub Pages or
-> any static host. No build step required.
+GitHub Pages publishes the `gh-pages` branch from the repository root. `gh-pages` is also the default branch. The site is [https://zekiog.github.io/hermes-legal/](https://zekiog.github.io/hermes-legal/).
 
-Deploy:
-
-1. Enable **Settings → Pages → Deploy from branch `main` / root**.
-2. Pages become available at `https://zekiog.github.io/hermes-legal/`.
-
-Edit any of the three HTML files directly; no tooling needed.
+Edit the HTML files directly.
 
 ## License
 
-The legal text is © Hermes AI Agent. The page templates and any
-surrounding code in this repository are released under the MIT license
-unless otherwise noted.
+The legal text is © Mehmet Zeki Oguz. The page templates and any surrounding code in this repository are released under the MIT license unless otherwise noted.
